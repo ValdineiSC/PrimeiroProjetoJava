@@ -1,20 +1,17 @@
 package cursojava.executavel;
 
+import java.io.PrintStream;
+
 public class PrimeiraClasseJava {
 	
-	char pessoaFisica = 'F';
-	char pessoaJuridica = 'J';
-	
+
 public static void main(String [ ]args) {
-double nota1 = 90;
-double nota2 = 70;
-double nota3 = 50;
-double nota4 = 88;
+	String textoQualquer = " Aceita um tamanho qualquer";
+	String nome = "Valdinei";
+	String cpf = "045.236.632-25";
 
-double mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
-
-System.out.println("Médias das notas = "+ mediaFinal);
-
+System.out.println("Meu nome é:  " + nome +
+		" e o cpf: " + cpf);
 
 }
 
